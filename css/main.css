@@ -10,10 +10,24 @@ html { box-sizing: border-box; -moz-text-size-adjust: 100%; -ms-text-size-adjust
   box-sizing: inherit;
 }
 
+.circles {
+  text-align: center;
+  width: 35%;
+  padding-top: 10px;
+}
+
 a {
-  height: 30px;
-  width: 30px;
+  height: 20px;
+  width: 20px;
   border: 2px solid #999;
   border-radius: 50%;
   display: inline-block;
+}
+
+.panel {
+  display: none;
+}
+
+.panel:target {
+  display: block;
 }
