@@ -24,6 +24,10 @@ a {
   display: inline-block;
 }
 
+a:hover {
+  background-color: #999;
+}
+
 .panel {
   display: none;
 }
